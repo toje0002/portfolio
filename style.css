@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  font-family: "Vina Sans", serif;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Vina Sans", serif;
+}
+
+h3 {
+  font-family: "Vina Sans", serif;
+}
+
+p {
+  font-family: "Inter", serif;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+html {
+  background-image: linear-gradient(rgb(255, 255, 255), #234aff, #001c9c);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
