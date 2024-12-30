@@ -1,0 +1,74 @@
+body {
+  margin: 0vw 10vw;
+}
+
+h2 {
+  font-family: "Vina Sans", serif;
+  font-size: 9rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Vina Sans", serif;
+  font-size: 3rem;
+  margin-top: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: "Inter", serif;
+  color: white;
+  font-weight: bold;
+  text-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.ommigtekst {
+  text-align: start;
+}
+
+.ommigbillededesk {
+  display: none;
+}
+
+@media screen and (min-width: 801px) {
+  .row2 {
+    display: grid;
+    grid-template-rows: 40vh 1fr;
+    grid-template-columns: 1fr;
+  }
+  .grid_1-1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  h2 {
+    font-size: 18vw;
+    text-align: start;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+
+  .ommigbillededesk {
+    display: block;
+    margin-left: 13px;
+    margin-top: 24px;
+    width: 21vw;
+  }
+
+  .ommigbilledemobil {
+    display: none;
+  }
+  p {
+    font-size: 1.1vw;
+    margin: 0;
+  }
+  main {
+    margin-top: -50px;
+  }
+}

@@ -1,0 +1,66 @@
+body {
+  margin: 0vw 10vw;
+}
+
+h2 {
+  font-family: "Vina Sans", serif;
+  font-size: 9rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Vina Sans", serif;
+  font-size: 3rem;
+  margin-top: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Inter", serif;
+  color: white;
+  font-weight: bold;
+  text-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.temabilleder1 {
+  filter: grayscale(1) opacity(0.7);
+  position: relative;
+  z-index: 1;
+}
+
+.temabilleder1:hover {
+  filter: none;
+  transition: 0.4s ease;
+}
+
+a {
+  color: white;
+}
+
+@media screen and (min-width: 801px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    gap: 0px 50px;
+    /* margin-top: -40px; */
+  }
+  h2 {
+    font-size: 18vw;
+    text-align: start;
+  }
+  h3 {
+    align-self: end;
+    margin-bottom: 40px;
+  }
+  p {
+    margin: 0;
+    font-size: 1.1vw;
+  }
+  main {
+    margin-top: -50px;
+  }
+}
