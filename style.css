@@ -119,6 +119,7 @@ nav {
 .burger {
   display: none;
 }
+
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
@@ -134,9 +135,9 @@ nav {
     display: block;
     text-align: start;
     grid-column: 1/3;
-    font-size: 3rem;
+    font-size: 10vw;
     font-weight: normal;
-    padding-left: 12vw;
+    padding-left: 7vw;
   }
 
   .burger {
@@ -159,7 +160,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #f2f3fff4;
+    background-color: #d0ccd7e3;
     position: fixed;
     top: 54px;
     left: 0;
